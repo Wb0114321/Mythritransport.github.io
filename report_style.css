@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #0056b3;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+header .btn {
+    color: white;
+    background-color: #f44336;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+main {
+    padding: 2em;
+}
+
+section h2 {
+    color: #333;
+    margin-bottom: 1em;
+}
+
+form {
+    background-color: white;
+    padding: 1.5em;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+form input,
+form button {
+    display: block;
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #003d80;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2em;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 0.75em;
+    text-align: center;
+}
+
+table th {
+    background-color: #f4f4f9;
+}
+
+h3, h4 {
+    margin-top: 2em;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #0056b3;
+    color: white;
+    margin-top: 2em;
+}
